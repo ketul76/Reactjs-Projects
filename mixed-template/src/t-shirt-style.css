@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  width: 100%;
+  height: 75px;
+  font-size: 25px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 45px;
+}
+.logoname{
+  margin-top: 17px;
+  font-size: 35px;
+  font-weight: bold;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 55px;
+  margin-top: 10px;
+  padding: 15px 0;
+}
+nav img{
+  height: 25px;
+  width: 20px;
+}
+nav button{
+  margin-top: -7px;
+  width: 100px;
+  height: 40px;
+  background-color: #A8D741;
+  border-radius: 8px;
+  font-size: 15px;
+}
+nav button:hover{
+  background-color: #F9F9F9;
+  color: black;
+}
+.section1{
+  width: 95%;
+  height: 95vh;
+  margin-left: 55px;
+  background-color: #A8D741;
+  margin: 45px 45px 65px 35px;
+  border-radius: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section1 h3{
+  font-size: 40px;
+}
+.section1 h1{
+  font-size: 75px;
+}
+.section1 button{
+  width: 205px;
+  height: 65px;
+  border-radius: 35px;
+  background-color: #000000;
+  color: white;
+  border: 2px solid white;
+  font-size: 20px;
+  transition: all 0.8s ease-in-out;
+}
+.section1 button:hover{
+  background-color: white;
+  color: black;
+  transform: rotate(5deg);
+}
+.section1 a{
+  color: black;
+  cursor: pointer;
+  font-size: 25px;
+}
+.section1 p{
+  font-size: 20px;
+}
+hr{
+  color: black;
+  margin: 0 45px;
+}
+.section2{
+  width: 95%;
+  height: 95vh;
+}
+.section2 img{
+  width: 200px;
+}
+.feature{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 35px  ;
+}
+.section2 h1{
+  margin-left: 45px;
+  margin-top: 15px;
+}
+.feature1{
+  display: flex;
+}

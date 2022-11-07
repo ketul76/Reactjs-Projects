@@ -1,0 +1,281 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  width: 100%;
+  height: 60px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  padding: 7px;
+}
+.logo img{
+  width: 45px;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+}
+nav ul li{
+  /* padding-top: 20px; */
+  padding: 20px;
+}
+.menu{
+  text-align: center;
+  color: white;
+  margin-right: 25px;
+}
+.home-list ,.about-list,.contact-list{
+  background-color: tomato;
+  height: 60px;
+  width: 100px;
+}
+.menu .about-list{
+  background-color: orange;
+  
+}
+.menu .contact-list{
+  background-color:black;
+  
+}
+.hero-section1{
+  width: 100%;
+  height: 80vh;
+  background-image: linear-gradient(to right bottom,
+  #b0c9dc75,
+  #84d9b4b0),
+  url(/public/LastChangeImages/img-1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 55px;
+}
+.hero-section1 h6{
+  border: 1px solid black;
+  width: 100px;
+  background-color: tomato;
+  color: tomato;
+  height: 25px;
+}
+.hero-section1 h1{
+  font-size: 75px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 15px;
+  line-height: 0.9;
+}
+.hero-section1 span{
+  color: tomato;
+}
+.hero-section1 p{
+  line-height: 1.2;
+  font-size: 17px;
+  font-weight: 900;
+}
+.start{
+  border: 3px solid black;
+  width: 250px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 45px;
+  /* margin-left: 60px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: -25px; */
+  position: absolute;
+  left: 10%;
+  top: -5%;
+  /* z-index: 1; */
+}
+.section2{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+.section2 h1{ 
+  font-size: 75px;
+  font-weight: bold;
+  color: tomato;
+}
+.section2 h3{
+  font-size: 17px;
+}
+.section3{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+}
+.section3 .sec-1{
+  width: 35%;
+  height: 50vh;
+  background-color: #000000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 80PX;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section3 .sec-1 h1{
+  font-size: 25px;
+}
+.section3 .sec-1 p{
+  font-size: 15px;
+}
+.section3 .sec-1 .text{
+  margin-bottom: 14px;
+}
+button{
+  margin-top: 17px;
+  width: 100px;
+  height: 30px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+button:hover{
+  background-color: white;
+  color: black;
+}
+.section3 .sec-2{
+  width: 30%;
+  height: 50vh;
+  background-image: url(/public/LastChangeImages/img-2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.section3 .sec-3{
+  width: 35%;
+  height: 50vh;
+  background-color: #A0D2EB;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 80PX;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+.section3 .sec-3 h1{
+  font-size: 25px;
+}
+.section3 .sec-3 p{
+  font-size: 15px;
+}
+.section3 .sec-3 .text{
+  margin-bottom: 14px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  header{
+    width: 100%;
+    height: 60px;
+  }
+  .menu .home-list{
+    background-color: tomato;
+    height: 60px;
+    width: 80px;
+  }
+  .menu .about-list{
+    background-color: orange;
+    height: 60px;
+    width: 80px;
+  }
+  .menu .contact-list{
+    background-color:black;
+    height: 60px;
+    width: 80px;
+  }
+  .hero-section1{
+    width: 100%;
+    height: 80vh;
+  }
+  .hero-section1 h6{
+    width: 50px;
+    height: 15px;
+  }
+  .hero-section1 h1{
+    font-size: 30px;
+  }
+  .hero-section1 p{
+    line-height: 1.2;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .section2{
+    width: 100%;
+    height: 100vh;
+  }
+  .section2 h1{
+      font-size: 35px;
+  }
+  .section3{
+    width: 100%;
+    height: 50vh;
+  }
+
+} 
+
+
+@media screen and (min-width:300px) and (max-width: 700px) {
+  header{
+    width: 100%;
+    height: 60px;
+  }
+  nav ul li{
+    display: none;
+  }
+  .hero-section1{
+    width: 100%;
+    height: 50vh;
+  }
+  .hero-section1 h6{
+    width: 50px;
+    height: 15px;
+  }
+  .hero-section1 h1{
+    font-size: 20px;
+  }
+  .hero-section1 p{
+    line-height: 1.2;
+    font-size: 7px;
+    font-weight: 600;
+  }
+  .section2{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 25px;
+  }
+  .section3{
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+  }
+  .section3 .sec-1{
+    width: 100%;
+  }
+  .section3 .sec-2{
+    width: 100%;
+  }
+  .section3 .sec-3{
+    width: 100%;
+  }
+}
